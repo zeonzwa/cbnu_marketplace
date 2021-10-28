@@ -24,7 +24,7 @@ export const layout = StyleSheet.create({
     },
     mainContent: {
         flex: 1,
-        backgroundColor: 'transition',
+        backgroundColor: 'transparent',
         alignItems: 'center',
         justifyContent: 'center',  
         width: '100%',
@@ -32,7 +32,7 @@ export const layout = StyleSheet.create({
         backgroundColor: '#fff',
     },
     footer: {
-        backgroundColor: 'transition',
+        backgroundColor: 'transparent',
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-around', 
@@ -52,8 +52,68 @@ export const mainCt = StyleSheet.create({
     },
     mainGoodsWrap : {
         flex : 1.5,
+    },
+    iconWrap : {
+        width : '100%',
+        flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center', 
+        justifyContent: 'space-evenly' 
+    },
+    iconBox : {
+        flexDirection : 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingTop : 20,
+        paddingBottom: 20,
+    },
+    iconStyle : {
+        fontSize: 30,
+    },
+    iconName : {
+        marginTop: 10
+    },
+    goodsCt : {
+        paddingLeft : 20,
+        paddingRight : 20
+    },
+    introTitle : {
+        fontSize : 20,
+        fontWeight : "500",
+        marginBottom : 20,
+        marginTop: 10,
+    },
+    goodsWrap : {
+        display : "flex",
+        flexDirection: 'row',
+        flexWrap : "wrap",
+        alignItems : "center",
+        justifyContent : "space-between",
+    },
+    goods : {
+        width : '47.5%',
+        flexDirection : 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginBottom : 10
+    },
+    goodsImg : {
+        width : '100%',
+        height : 100,
+        backgroundColor : '#2980b9',
+        flexDirection : 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    goodsImgText : {
+        color : "#f7f7f7"
+    },
+    goodsName : {
+        display : "flex",
+        flexDirection: 'row',
+        paddingTop:7.5,
+    },
+    goodsNameCategory : {
+        marginRight : 5,
     },
 });
 

@@ -23,7 +23,57 @@ export const Contents = () => {
                 <Text>상단배너</Text>
             </View>
             <View style={mainCt.mainGoodsWrap}>
-                <Text>상품</Text>
+                <View style={mainCt.iconWrap}>
+                    <View style={mainCt.iconBox}>
+                        <Icon name="heart" style={mainCt.iconStyle}></Icon>
+                        <Text style={mainCt.iconName}>찜</Text>
+                    </View>
+                    <View style={mainCt.iconBox}>
+                        <Icon name="history" style={mainCt.iconStyle}></Icon>
+                        <Text style={mainCt.iconName}>최근 본 물품</Text>
+                    </View>
+                    <View style={mainCt.iconBox}>
+                        <Icon name="shopping-bag" style={mainCt.iconStyle}></Icon>
+                        <Text style={mainCt.iconName}>거래내역</Text>
+                    </View>
+                    <View style={mainCt.iconBox}>
+                        <Icon name="check-square" style={mainCt.iconStyle}></Icon>
+                        <Text style={mainCt.iconName}>학교인증</Text>
+                    </View>
+                </View>
+                <View style={mainCt.goodsCt}>
+                    <Text style={mainCt.introTitle}>최근 게시물을 확인해보세요</Text>
+                    <View style={mainCt.goodsWrap}>
+                        <View style={mainCt.goods}>
+                            <View style={mainCt.goodsImg}><Text style={mainCt.goodsImgText}>Image</Text></View>
+                            <View style={mainCt.goodsName}>
+                                <Text style={mainCt.goodsNameCategory}>#서적</Text>
+                                <Text>경영정보시스템 팝니다</Text>
+                            </View>
+                        </View>
+                        <View style={mainCt.goods}>
+                            <View style={mainCt.goodsImg}><Text style={mainCt.goodsImgText}>Image</Text></View>
+                            <View style={mainCt.goodsName}>
+                                <Text style={mainCt.goodsNameCategory}>#서적</Text>
+                                <Text>경영정보시스템 팝니다</Text>
+                            </View>
+                        </View>
+                        <View style={mainCt.goods}>
+                            <View style={mainCt.goodsImg}><Text style={mainCt.goodsImgText}>Image</Text></View>
+                            <View style={mainCt.goodsName}>
+                                <Text style={mainCt.goodsNameCategory}>#서적</Text>
+                                <Text>경영정보시스템 팝니다</Text>
+                            </View>
+                        </View>
+                        <View style={mainCt.goods}>
+                            <View style={mainCt.goodsImg}><Text style={mainCt.goodsImgText}>Image</Text></View>
+                            <View style={mainCt.goodsName}>
+                                <Text style={mainCt.goodsNameCategory}>#서적</Text>
+                                <Text>경영정보시스템 팝니다</Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
             </View>
         </View>
     );
