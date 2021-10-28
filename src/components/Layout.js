@@ -167,11 +167,18 @@ export const Contents = () => {
                                 <Text>경영정보시스템 팝니다17</Text>
                             </View>
                         </View>
-                        <View style={mainCt.goods}>
+                       <View style={mainCt.goods}>
                             <View style={mainCt.goodsImg}><Text style={mainCt.goodsImgText}>Image</Text></View>
                             <View style={mainCt.goodsName}>
                                 <Text style={mainCt.goodsNameCategory}>#서적</Text>
                                 <Text>경영정보시스템 팝니다18</Text>
+                            </View>
+                        </View>
+                        <View style={mainCt.goods}>
+                            <View style={mainCt.goodsImg}><Text style={mainCt.goodsImgText}>Image</Text></View>
+                            <View style={mainCt.goodsName}>
+                                <Text style={mainCt.goodsNameCategory}>#서적</Text>
+                                <Text>경영정보시스템 팝니다19</Text>
                             </View>
                         </View>
                     </View>
