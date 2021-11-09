@@ -1,6 +1,6 @@
 import React from 'react';
 import {ScrollView, StyleSheet, View, Text, LayoutAnimation,
-SafeAreaView, FlatList, Image} from 'react-native';
+SafeAreaView, FlatList, Image, TouchableOpacity} from 'react-native';
 import { layout, mainCt } from '../styles';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -29,19 +29,27 @@ export const Contents = () => {
                 <View style={mainCt.iconWrap}>
                     <View style={mainCt.iconBox}>
                         <Icon name="heart" style={mainCt.iconStyle}></Icon>
+                        <TouchableOpacity style={{backgroundColor:'gray'}}>
                         <Text style={mainCt.iconName}>찜</Text>
+                        </TouchableOpacity>
                     </View>
                     <View style={mainCt.iconBox}>
                         <Icon name="history" style={mainCt.iconStyle}></Icon>
+                        <TouchableOpacity style={{backgroundColor:'gray'}}>
                         <Text style={mainCt.iconName}>최근 본 물품</Text>
+                        </TouchableOpacity>
                     </View>
                     <View style={mainCt.iconBox}>
                         <Icon name="shopping-bag" style={mainCt.iconStyle}></Icon>
+                        <TouchableOpacity style={{backgroundColor:'gray'}}>
                         <Text style={mainCt.iconName}>거래내역</Text>
+                        </TouchableOpacity>
                     </View>
                     <View style={mainCt.iconBox}>
                         <Icon name="check-square" style={mainCt.iconStyle}></Icon>
+                        <TouchableOpacity style={{backgroundColor:'gray'}}>
                         <Text style={mainCt.iconName}>학교인증</Text>
+                        </TouchableOpacity>
                     </View>
                 </View>
                 <ScrollView>
